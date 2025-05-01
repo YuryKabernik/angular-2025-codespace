@@ -9,7 +9,10 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "Angular.ng-template"
+        "angular.ng-template",
+        "esbenp.prettier-vscode",
+        "EditorConfig.EditorConfig",
+        "donjayamanne.githistory"
       ]
     }
   }
