@@ -1,0 +1,13 @@
+.ac-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	left: 0;
+	padding: 1rem 0;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	background-color: #8eaee9;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
