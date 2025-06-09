@@ -1,1 +1,11 @@
-<p>accounts-listing works!</p>
+<ul>
+	@for (account of accounts; track account.id) {
+	<li>
+		<a [href]="['/accounts', account.id]">
+			{{ account.name }}
+		</a>
+		<!-- <span class="balance">{{ account.balance | currency }}</span> -->
+		<span class="balance">{{ account.balance }}</span>
+	</li>
+	}
+</ul>

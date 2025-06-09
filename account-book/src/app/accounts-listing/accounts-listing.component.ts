@@ -9,12 +9,19 @@
 
 import { Component } from '@angular/core';
 
+type Account = {
+	id: string;
+	name: string;
+	balance: number;
+	currency: string;
+};
+
 @Component({
-  selector: 'app-accounts-listing',
-  imports: [],
-  templateUrl: './accounts-listing.component.html',
-  styleUrl: './accounts-listing.component.scss'
+	selector: 'app-accounts-listing',
+	imports: [],
+	templateUrl: './accounts-listing.component.html',
+	styleUrl: './accounts-listing.component.scss',
 })
 export class AccountsListingComponent {
-
+	accounts: Account[] = [];
 }
