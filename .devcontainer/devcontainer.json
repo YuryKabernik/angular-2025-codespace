@@ -15,5 +15,6 @@
         "donjayamanne.githistory"
       ]
     }
-  }
+  },
+  "postStartCommand": "cd ./account-book && npm install"
 }
